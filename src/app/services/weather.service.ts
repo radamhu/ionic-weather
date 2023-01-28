@@ -12,7 +12,7 @@ export class WeatherService {
   getWeatherData(): Observable<any> {
     let lat = -37.848935;
     let lon = 144.946457;
-    let apiId = '1a710df2af4a7380eebdccbaa0428d9d';
+    let apiId = '****';
     let queryString = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&exclude=minutely, hourly, alerts&appid=${apiId}`;
     //let queryString = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={apiId}`;
 
